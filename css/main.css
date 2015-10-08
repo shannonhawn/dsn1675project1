@@ -31,12 +31,6 @@ main{
   clear: both;
 }
 
-.me{
-  display:block;
-  margin:0;
-  width:100%;
-}
-
 body{
   font-family: 'Montserrat', sans-serif;
   margin: 0;
@@ -80,7 +74,11 @@ color: pink;
 }
 
 
-
+.me{
+  display:block;
+  margin:0;
+  width:100%;
+}
 
 
 /*large screen*/
