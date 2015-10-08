@@ -22,20 +22,29 @@ header{
   background-color: pink;
   color:white;
   overflow:hidden;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Lobster';
 }
 
 main{
-  background-color: #d98156;
+  background-color: #a64a4f;
   overflow: hidden;
   clear: both;
 }
 
+.me{
+  display:block;
+  margin:0;
+  width:100%;
+}
+
 body{
-  font-family: "Merriweather";
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   line-height: 1.5em;
   font-size: 12px;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
 }
 
 h1{
@@ -45,7 +54,7 @@ h1{
     padding: 0.5em;
     margin:0;
     box-sizing: border-box;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Lobster';
 }
 
 h2{
@@ -55,7 +64,7 @@ h2{
   font-size: 16px;
   padding: 1em;
   margin: 0;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a{
@@ -64,27 +73,15 @@ a{
   box-sizing: border-box;
   margin: 0;
   padding: 0.75em;
-  border-top: 1px solid #a4403b;
-  border-bottom: 1px solid #a4403b;
 }
 
 a:hover{
-color: #a4403b;
+color: pink;
 }
 
-body {
-  font-size:0.75rem;
-  margin:0;
-  font-family: 'Cabin', sans-serif;
-}
-
-header {
-text-align:center;
-}
-
-h1 {
-  text-align: center;
-  padding: 0.5em 0 0.5em 0;
-  margin: 0;
-  clear:both;
+/*large screen*/
+@media only screen and (min-width: 60em) {
+html {
+  font-size: 120%;
+  line-height: 1.5
 }
