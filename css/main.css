@@ -16,10 +16,6 @@ html {
   text-size-adjust:100%;
 }
 
-*, *::before, *::after{
-  box-sizing: inherit;
-}
-
 header{
   padding:0;
   text-align: center;
@@ -51,7 +47,6 @@ h1{
 }
 
 h2{
-  background-color: #d98156;
   color: white;
   clear: both;
   text-align: center;
@@ -74,27 +69,6 @@ a:hover{
 color: #a4403b;
 }
 
-
-.p1{
-  clear:right;
-}
-
-.p2{
-  clear: left;
-  margin: 0.75em;
-}
-
-
-footer{
-  color: #d98156;
-  background-color: #cd5b34;
-  clear: both;
-  font-size: 10px;
-  padding: 1em;
-  text-align: center;
-}
-
-
 body {
   font-size:0.75rem;
   margin:0;
@@ -104,7 +78,6 @@ body {
 header {
 text-align:center;
 }
-
 
 h1 {
   text-align: center;
