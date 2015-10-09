@@ -59,17 +59,6 @@ h1{
     text-shadow: 1px 1px 1px #000;
 }
 
-h2{
-  color: white;
-  clear: both;
-  text-align: center;
-  font-size: 19px;
-  padding: 1em;
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  line-height: .5em;
-}
-
 a{
   color: white;
   text-align: center;
@@ -95,6 +84,12 @@ nav ul {
   list-style-type: none
 }
 
+nav li {
+  display:inline-block;
+  width: 20%;
+  padding: 1em;
+  list-style-type: none
+}
 
 /* Extra Small - 320 px*/
 
@@ -108,11 +103,6 @@ transition: all 0
 
 h1 {
 font-size: 4em;
-}
-
-h2 {
-font-size: .8em;
-padding: 0
 }
 
 main {
@@ -138,11 +128,6 @@ line-height: 1.4
 header h1 {
 text-align: left;
 margin-left: 16px
-}
-
-header h3 {
-margin-left: 1.4em;
-text-align: left
 }
 
 main {
@@ -179,16 +164,6 @@ text-align: center;
 margin-left: 0;
 }
 
-h2 {
-position: relative;
-bottom: 9em;
-width: 100%;
-padding: 0;
-margin: 0 auto;
-font-size: 19px;
-text-align: center
-}
-
 p {
 float: left;
 width: 50%;
@@ -201,9 +176,4 @@ padding: 0.5em
 html {
   font-size: 20px;
   line-height: 1.5
-}
-
-h2 {
-bottom: 10em
-}
 }
