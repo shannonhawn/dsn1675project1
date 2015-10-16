@@ -234,6 +234,11 @@ width: 70%;
 font-size:16px;
 }
 
+.print p{
+  text-align: center;
+  color:grey;
+}
+
 }
 
 /*Print*/
